@@ -1,0 +1,13 @@
+Hadoop 
+1. gedit driver.java 
+2. cd come inside the folder 
+3. javac -d . *.java
+4. echo Main-Class: sales.driver  >Manifest.txt 
+5. jar CFM sales.jar Manifest.txy sales/*.class
+6. hadoop jar sales.jar input.csv output 
+7. cat output/*
+
+Spark
+1. spark-submit weather.py weather_report.txt output1 output2
+2. cat output1/*
+3. cat output2/*
